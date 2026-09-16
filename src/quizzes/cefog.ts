@@ -47,7 +47,7 @@ export const CEFOG: QuizConfig = {
     },
 
     difficulties: {
-        easy: { label: 'Fácil', icon: '😊', color: 'from-emerald-500 to-teal-600', timePerQuestion: 30, questionsPerGame: 5, pointsPerQuestion: 10 },
+        easy: { label: 'Fácil', icon: '😊', color: 'from-emerald-500 to-teal-600', timePerQuestion: 30, questionsPerGame: 10, pointsPerQuestion: 10 },
         medium: { label: 'Médio', icon: '🤔', color: 'from-amber-500 to-orange-600', timePerQuestion: 20, questionsPerGame: 8, pointsPerQuestion: 20 },
         hard: { label: 'Difícil', icon: '🔥', color: 'from-red-500 to-rose-600', timePerQuestion: 10, questionsPerGame: 10, pointsPerQuestion: 30 },
     },
