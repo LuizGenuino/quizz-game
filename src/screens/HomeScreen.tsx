@@ -12,7 +12,7 @@ export const HomeScreen: React.FC<Props> = ({ quiz, onStart }) => {
     <div className="flex flex-col items-center justify-center gap-8 sm:gap-12 animate-fade-in">
       <div className="relative">
         <div className="absolute inset-0 blur-3xl bg-gradient-to-r from-pink-500 to-purple-500 opacity-30 animate-pulse-slow" />
-        <div className="relative flex gap-2 sm:gap-4 mb-4 sm:mb-8 justify-center flex-wrap">
+        {!quiz.texts.gameLogo && <div className="relative flex gap-2 sm:gap-4 mb-4 sm:mb-8 justify-center flex-wrap">
           {[quiz.brandIcon, '❓', '⚡'].map((emoji, i) => (
             <div
               key={i}
@@ -22,10 +22,11 @@ export const HomeScreen: React.FC<Props> = ({ quiz, onStart }) => {
               {emoji}
             </div>
           ))}
-        </div>
+        </div>}
       </div>
 
-      <div className="text-center space-y-3 sm:space-y-4 px-4">
+      <div className="flex flex-col items-center text-center space-y-3 sm:space-y-4 px-4">
+         {quiz.texts.gameLogo &&<img src={quiz.texts.gameLogo} alt='logo' className='w-[80vw] max-w-[340px]' />}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white drop-shadow-2xl tracking-tight">
           {quiz.texts.gameTitle}
         </h1>
@@ -34,7 +35,7 @@ export const HomeScreen: React.FC<Props> = ({ quiz, onStart }) => {
         </p>
       </div>
 
-      <Button onClick={onStart} gradient={quiz.colors.primary} size="lg" icon="🎮">
+      <Button onClick={onStart} gradient={quiz.colors.primary} size="lg">
         {quiz.texts.startButton}
       </Button>
     </div>
