@@ -11,7 +11,7 @@ export const CEFOG: QuizConfig = {
 
     showDifficultyScreen: false,   // pula a tela de dificuldade
     showCategoryScreen: true,
-    defaultDifficulty: 'easy',     // usa esta dificuldade automaticamente
+    defaultDifficulty: 'easy',     // usa está dificuldade automaticamente
 
     texts: {
         gameLogo: LogoImg,
@@ -48,7 +48,7 @@ export const CEFOG: QuizConfig = {
 
     difficulties: {
         easy: { label: 'Fácil', icon: '😊', color: 'from-emerald-500 to-teal-600', timePerQuestion: 30, questionsPerGame: 10, pointsPerQuestion: 10 },
-        medium: { label: 'Médio', icon: '🤔', color: 'from-amber-500 to-orange-600', timePerQuestion: 20, questionsPerGame: 8, pointsPerQuestion: 20 },
+        medium: { label: 'Médio', icon: '🤔', color: 'from-amber-500 to-orange-600', timePerQuestion: 20, questionsPerGame: 10, pointsPerQuestion: 20 },
         hard: { label: 'Difícil', icon: '🔥', color: 'from-red-500 to-rose-600', timePerQuestion: 10, questionsPerGame: 10, pointsPerQuestion: 30 },
     },
 
@@ -85,7 +85,7 @@ export const CEFOG: QuizConfig = {
                         'Coluna se caracteriza por uma coluna atrás da outra;',
                         'Coluna base se caracterizam por ser a extremidade da direita e a testa;',
                         'Moral, indisciplina, Espírito de corpo e improficiência;',
-                        'Moralidade, Disciplinariedade, Espírito de corpo e Proficiência'
+                        'Moralidade, Disciplinaridade, Espírito de corpo e Proficiência'
                     ],
                     correctIndex: 1
                 },
@@ -102,10 +102,10 @@ export const CEFOG: QuizConfig = {
                 {
                     question: 'O QUE É DISCIPLINA?',
                     options: [
-                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo a missão do conjunto, do qual faz parte.',
-                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da desordem e da não obediência, resultante de uma educação apropriada. A disciplina militar é pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo a missão do conjunto, do qual faz parte.',
-                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a insubordinação involuntária do indivíduo a missão do conjunto, do qual faz parte.',
-                        'A disciplina não é a força principal dos Guardas Mirins. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo a missão do conjunto, do qual faz parte.'
+                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo à missão do conjunto, do qual faz parte.',
+                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da desordem e da não obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo à missão do conjunto, do qual faz parte.',
+                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a insubordinação involuntária do indivíduo à missão do conjunto, do qual faz parte.',
+                        'A disciplina não é a força principal dos Guardas Mirins. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo à missão do conjunto, do qual faz parte.'
                     ],
                     correctIndex: 0
                 },
@@ -124,18 +124,18 @@ export const CEFOG: QuizConfig = {
                     options: [
                         'O homem base se encontra na retaguarda;',
                         'O homem base se encontra na testa e na extremidade da direita;',
-                        'O homem base é responsável pela cadencia da tropa;',
+                        'O homem base é responsável pela cadência da tropa;',
                         'O homem base é responsável pelo alinhamento e cobertura da tropa;'
                     ],
                     correctIndex: 0
                 },
                 {
-                    question: 'COMO E FORMADA A ESCALA HIERÁRQUICA DA GUARDA MIRIM?',
+                    question: 'COMO É FORMADA A ESCALA HIERÁRQUICA DA GUARDA MIRIM?',
                     options: [
-                        'A hierarquia da CF obedecerá a mesma hierarquia da Policia Militar do Estado do Mato Grosso, com as seguintes nomenclaturas: AL CF, SD CF, MON CF, CABO CF, 1º SARGENTO CF, 2º SARGENTO CF, 3º SARGENTO CF, SUB-TENENTE CF, 1º TENENTE CF, 2º TENENTE CF, CAPITÃO CF, MAJOR CF, TENENTE-CORONEL CF e CORONEL CF.',
-                        'A hierarquia da CF obedecerá a mesma hierarquia da Policia Militar do Estado do Mato Grosso, com as seguintes nomenclaturas: AL CF, SD CF, MON CF, CABO CF, 3º SARGENTO CF, 2º SARGENTO CF, 1º SARGENTO CF, SUB-TENENTE CF, 2º TENENTE CF, 1º TENENTE CF, CAPITÃO CF, MAJOR CF, TENENTE-CORONEL CF e CORONEL CF.',
-                        'A hierarquia da CF obedecerá a mesma hierarquia da Policia Militar do Estado do Mato Grosso, com as seguintes nomenclaturas: AL CF, SD CF, MON CF, CABO CF, 3º SARGENTO CF, 2º SARGENTO CF, 1º SARGENTO CF, CAPITÃO CF, SUB-TENENTE CF, 2º TENENTE CF, 1º TENENTE CF, MAJOR CF, TENENTE-CORONEL CF e CORONEL CF.',
-                        'A hierarquia da CF obedecerá a mesma hierarquia da Policia Militar do Estado do Mato Grosso, com as seguintes nomenclaturas: AL CF, SD CF, MON CF, CABO CF, 3º SARGENTO CF, 2º SARGENTO CF, 1º SARGENTO CF, SUB-TENENTE CF, 2º TENENTE CF, 1º TENENTE CF, CAPITÃO CF, MAJOR CF, CORONEL CF e TENENTE-CORONEL CF .'
+                        'A hierarquia da CF obedecerá a mesma hierarquia da Polícia Militar do Estado do Mato Grosso, com as seguintes nomenclaturas: AL CF, SD CF, MON CF, CABO CF, 1º SARGENTO CF, 2º SARGENTO CF, 3º SARGENTO CF, SUB-TENENTE CF, 1º TENENTE CF, 2º TENENTE CF, CAPITÃO CF, MAJOR CF, TENENTE-CORONEL CF e CORONEL CF.',
+                        'A hierarquia da CF obedecerá a mesma hierarquia da Polícia Militar do Estado do Mato Grosso, com as seguintes nomenclaturas: AL CF, SD CF, MON CF, CABO CF, 3º SARGENTO CF, 2º SARGENTO CF, 1º SARGENTO CF, SUB-TENENTE CF, 2º TENENTE CF, 1º TENENTE CF, CAPITÃO CF, MAJOR CF, TENENTE-CORONEL CF e CORONEL CF.',
+                        'A hierarquia da CF obedecerá a mesma hierarquia da Polícia Militar do Estado do Mato Grosso, com as seguintes nomenclaturas: AL CF, SD CF, MON CF, CABO CF, 3º SARGENTO CF, 2º SARGENTO CF, 1º SARGENTO CF, CAPITÃO CF, SUB-TENENTE CF, 2º TENENTE CF, 1º TENENTE CF, MAJOR CF, TENENTE-CORONEL CF e CORONEL CF.',
+                        'A hierarquia da CF obedecerá a mesma hierarquia da Polícia Militar do Estado do Mato Grosso, com as seguintes nomenclaturas: AL CF, SD CF, MON CF, CABO CF, 3º SARGENTO CF, 2º SARGENTO CF, 1º SARGENTO CF, SUB-TENENTE CF, 2º TENENTE CF, 1º TENENTE CF, CAPITÃO CF, MAJOR CF, CORONEL CF e TENENTE-CORONEL CF .'
                     ],
                     correctIndex: 1
                 },
@@ -146,7 +146,7 @@ export const CEFOG: QuizConfig = {
                         'Desenvolver o sentimento de coesão e os reflexos de obediência, como fatores preponderantes na formação dos soldados.',
                         'Não constituir uma verdadeira escola de disciplina.',
                         'Treinar oficiais e graduados no comando da tropa.',
-                        'Possibilitar, consequentemente, que a tropa se apresente em público, quer nas paradas, quer no simples descolamento de serviço, com aspecto energético e marcial.'
+                        'Possibilitar, consequentemente, que a tropa se apresente em público, quer nas paradas, quer no simples deslocamento de serviço, com aspecto energético e marcial.'
                     ],
                     correctIndex: 2
                 },
@@ -179,27 +179,27 @@ export const CEFOG: QuizConfig = {
                     correctIndex: 1
                 },
                 {
-                    question: 'EM RELAÇÃO AO CONCEITO DE ORDEM UNIDA, ASSINALE A ALTERANTIVA INCORRETA:',
+                    question: 'EM RELAÇÃO AO CONCEITO DE ORDEM UNIDA, ASSINALE A ALTERNATIVA INCORRETA:',
                     options: [
-                        'A Ordem Unida não se caracteriza por uma disposição individual e consciente altamente motivada, para a obtenção de determinados padrões coletivos de uniformidade, sincronização e garbo militar. Deve ser considerada, por todos os participantes como um significativo esforço para demonstrar a própria disciplina militar, isto é, a situação de ordem e obediência que se estabelece voluntariamente entre militares, em vista na necessidade de eficiência na guerra.',
+                        'A Ordem Unida não se caracteriza por uma disposição individual e consciente altamente motivada, para a obtenção de determinados padrões coletivos de uniformidade, sincronização e garbo militar. Deve ser considerada, por todos os participantes como um significativo esforço para demonstrar a própria disciplina militar, isto é, a situação de ordem e obediência que se estabelece voluntariamente entre militares, tendo em vista a necessidade de eficiência na guerra.',
                         'A Ordem Unida destina-se exclusivamente à prática de exercícios físicos individuais, não influenciando no desenvolvimento da disciplina, do garbo militar ou do trabalho em equipe.',
-                        'A Ordem Unida, não é se caracteriza por uma disposição individual, apenas coletiva e consciente altamente motivada, para a obtenção de determinados padrões coletivos de uniformidade, sincronização e garbo militar. não deve ser considerada, por todos os participantes como um significativo esforço para demonstrar a própria disciplina militar, isto é, a situação de ordem e obediência que se estabelece voluntariamente entre militares, em vista na necessidade de eficiência na guerra.',
-                        'A Ordem Unida se caracteriza por uma disposição individual e consciente altamente motivada, para a obtenção de determinados padrões coletivos de uniformidade, sincronização e garbo militar. Deve ser considerada, por todos os participantes - como um significativo esforço para demonstrar a própria disciplina militar, isto é, a situação de ordem e obediência que se estabelece voluntariamente entre militares, em vista na necessidade de eficiência na guerra.'
+                        'A Ordem Unida, não é se caracteriza por uma disposição individual, apenas coletiva e consciente altamente motivada, para a obtenção de determinados padrões coletivos de uniformidade, sincronização e garbo militar. não deve ser considerada, por todos os participantes como um significativo esforço para demonstrar a própria disciplina militar, isto é, a situação de ordem e obediência que se estabelece voluntariamente entre militares, tendo em vista a necessidade de eficiência na guerra.',
+                        'A Ordem Unida se caracteriza por uma disposição individual e consciente altamente motivada, para a obtenção de determinados padrões coletivos de uniformidade, sincronização e garbo militar. Deve ser considerada, por todos os participantes - como um significativo esforço para demonstrar a própria disciplina militar, isto é, a situação de ordem e obediência que se estabelece voluntariamente entre militares, tendo em vista a necessidade de eficiência na guerra.'
                     ],
                     correctIndex: 3
                 },
                 {
-                    question: 'ANALISANDO QUE A DISCIPLINA É A BASE DA INSTITUIÇÃO GUARDA MIRIM, ASSINALE O CONCEITO MAIS CORRETO SOBRE O QUE PODE SE DEFINIR DISICIPLINA:',
+                    question: 'ANALISANDO QUE A DISCIPLINA É A BASE DA INSTITUIÇÃO GUARDA MIRIM, ASSINALE O CONCEITO MAIS CORRETO SOBRE O QUE PODE SE DEFINIR DISCIPLINA:',
                     options: [
-                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo a missão do conjunto, do qual faz parte.',
+                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo à missão do conjunto, do qual faz parte.',
                         'A disciplina é a ausência total de regras e comandos, permitindo que cada indivíduo atue de forma isolada e independente da missão do grupo.',
-                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a insubordinação voluntária do indivíduo a missão do conjunto, do qual faz parte.',
-                        'A disciplina é a força principal dos exércitos, fazendo com que todos sejam mal treinados. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo a missão do conjunto, do qual faz parte.'
+                        'A disciplina é a força principal dos exércitos. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a insubordinação voluntária do indivíduo à missão do conjunto, do qual faz parte.',
+                        'A disciplina é a força principal dos exércitos, fazendo com que todos sejam mal treinados. A disciplina, no sentido militar, é o predomínio da ordem e da obediência, resultante de uma educação apropriada. A disciplina militar é, pois, a obediência pronta, inteligente, espontânea, e entusiástica às ordens do superior. Sua base é a subordinação voluntária do indivíduo à missão do conjunto, do qual faz parte.'
                     ],
                     correctIndex: 2
                 },
                 {
-                    question: 'SOBRE ORDEM UNIDA, DISTANCIA É:',
+                    question: 'SOBRE ORDEM UNIDA, DISTÂNCIA  É:',
                     options: [
                         'É a formação de uma tropa cujos elementos (homens, frações ou viaturas) estão colocados na mesma linha, um ao lado do outro, todos voltados para a mesma frente.',
                         'É o espaço entre dois elementos (homens, frações ou viaturas) colocados um atrás do outro e voltados para a mesma frente. Entre duas frações, a distância se mede em passos (ou em metros) contados do último elemento da fração da frente, ao primeiro da seguinte.',
@@ -212,7 +212,7 @@ export const CEFOG: QuizConfig = {
                     question: 'SOBRE ORDEM UNIDA, ALINHAMENTO É:',
                     options: [
                         'É o militar pelo qual a tropa regula sua marcha, cobertura e alinhamento.',
-                        'É o graduado colocado a retaguarda de uma tropa com a missão de cuidar da correção da marcha e dos movimentos, de exigir que todos se conservem nos respectivos e de zelar pela disciplina.',
+                        'É o graduado colocado à retaguarda de uma tropa com a missão de cuidar da correção da marcha e dos movimentos, de exigir que todos se conservem nos respectivos e de zelar pela disciplina.',
                         'É o intervalo lateral medido entre duas viaturas em movimento de comboio.',
                         'É a disposição cujos elementos (homens, frações ou viaturas), ficam em linha reta, voltados para a mesma frente, de modo que um elemento dique exatamente atrás do outro.'
                     ],
@@ -241,15 +241,15 @@ export const CEFOG: QuizConfig = {
                 {
                     question: 'SOBRE A ORDEM UNIDA, ASSINALE A ALTERNATIVA INCORRETA SOBRE VOZ DE EXECUÇÃO:',
                     options: [
-                        'tem por finalidade determinar o exato momento que o movimento deve começar ou cessar. A voz de execução deve ser curta, viva, energética e segura.',
-                        'Quando a voz de execução for constituída por uma palavra oxítona (que tem a tônica na última silaba), é aconselhável um certo alongamento na enunciação da(s) silaba(s) iniciais(s), seguido de uma enérgica em missão da silaba final.',
-                        'tem por finalidade determinar o exato momento que o movimento deve de anunciar. A voz de execução deve ser curta, viva, energética e segura.',
-                        'Quando a voz de execução for constituída por uma palavra oxítona (que tem a tônica na última silaba), é aconselhável um certo alongamento na enunciação da(s) silaba(s) iniciais(s), seguido de uma enérgica em missão da silaba final.'
+                        'tem por finalidade determinar o exato momento que o movimento deve começar ou cessar. A voz de execução deve ser curta, viva, enérgica e segura.',
+                        'Quando a voz de execução for constituída por uma palavra oxítona (que tem a tônica na última sílaba), é aconselhável um certo alongamento na enunciação da(s) sílaba(s) iniciais(s), seguido de uma enérgica em missão da sílaba final.',
+                        'tem por finalidade determinar o exato momento que o movimento deve de anunciar. A voz de execução deve ser curta, viva, enérgica e segura.',
+                        'Quando a voz de execução for constituída por uma palavra oxítona (que tem a tônica na última sílaba), é aconselhável um certo alongamento na enunciação da(s) sílaba(s) iniciais(s), seguido de uma enérgica em missão da sílaba final.'
                     ],
                     correctIndex: 1
                 },
                 {
-                    question: 'NO MANUAL DE INSTRUÇÃO, ASSINALE AS ALTERATIVAS CORRETAS DE PADRONIZAÇÃO:',
+                    question: 'NO MANUAL DE INSTRUÇÃO, ASSINALE AS ALTERNATIVAS CORRETAS DE PADRONIZAÇÃO:',
                     options: [
                         'a instrução deverá ter um desenvolvimento gradual, isto é, começar pelas partes mais simples, atingindo, progressivamente, as mais difíceis;',
                         'Nenhuma das alternativas está correta.',
@@ -272,7 +272,7 @@ export const CEFOG: QuizConfig = {
         },
         {
             id: 'graduados',
-            name: 'Graduados',
+            name: 'Teste de Reação dos Graduados',
             icon: '🔰', // ou '🔰'
             color: 'from-red-700 to-rose-900',
             questions: [
@@ -281,8 +281,8 @@ export const CEFOG: QuizConfig = {
                     options: [
                         'Ficar gritando alto em seu ouvido chamando atenção;',
                         'Tirar de forma e conversar com presteza para identificar o problema mandar embora;',
-                        'Deixar atrapalhar a instrução fazendo de conta que não esta vendo nada;',
-                        'Tirar de forma e conversar com presteza para identificar o problema junto com um\nresponsavel pela disciplina e tomar as providencias cabíveis;'
+                        'Deixar atrapalhar a instrução fazendo de conta que não está vendo nada;',
+                        'Tirar de forma e conversar com presteza para identificar o problema junto com um\nresponsável pela disciplina e tomar as providências cabíveis;'
                     ],
                     correctIndex: 3
                 },
@@ -291,16 +291,16 @@ export const CEFOG: QuizConfig = {
                     options: [
                         'Dar um bonesada nas pernas e braços;',
                         'Usar exclusivamente as palavras e exemplos, para corrigir os erros nunca usar atos de\nviolências ou grosserias não ter contato corporal com subalternos;',
-                        'Pegar um régua ou um pau que é mais forte e acertar aonde esta errado, para nunca mais\nesquecer os exemplos os dedos abertos;',
-                        'Não usar nenhum material apenas dar uns tapinhas soquinhos no cfs que esta errado com\ncarinho são crianças;'
+                        'Pegar uma régua ou um pau que é mais forte e acertar onde está errado, para nunca mais\nesquecer os exemplos os dedos abertos;',
+                        'Não usar nenhum material apenas dar uns tapinhas soquinhos no cfs que está errado com\ncarinho são crianças;'
                     ],
                     correctIndex: 1
                 },
                 {
-                    question: 'Quando um Cfs esta fazendo TFM, correndo e sentindo cansado, como devemos tomar\numa atitude para ajudar:',
+                    question: 'Quando um Cfs está fazendo TFM, correndo e sentindo cansado, como devemos tomar\numa atitude para ajudar:',
                     options: [
-                        'Amarrar uma cordinha no pé do Caxias para puxar o mocorronga para puxar o outro;',
-                        'Deixar para trás o mocorronga e só levar em frente os Caxias;',
+                        'Amarrar uma cordinha no pé do Caxias para puxar o mocorongo para puxar o outro;',
+                        'Deixar para trás o mocorongo e só levar em frente os Caxias;',
                         'Usar a camaradagem, e reciprocidade e unidos atingir o mesmo objetivo;',
                         'Pegar pelo pescoço sair arrastando, para ajudar não deixar ninguém para trás;'
                     ],
@@ -309,29 +309,29 @@ export const CEFOG: QuizConfig = {
                 {
                     question: 'Um menor chega com machucado, sangrando, com dores, fica quieto entra em forma.\nQual atitude tomar?',
                     options: [
-                        'O graduado deve avaliar a situação, retirar de forma e imediatamento, pois não tem\ncondição de fazer as atividades e tomar as providencias cabíveis;',
+                        'O graduado deve avaliar a situação, retirar de forma e imediatamente, pois não tem\ncondição de fazer as atividades e tomar as providências cabíveis;',
                         'Faz de conta que não está vendo, militar preciso ser forte e deixa ele agir naturalmente;',
-                        'O graduado deve avaliar a situação, retirar de forma e mandar embora imediatamento, pois\nnão tem condição de fazer as atividades como o menor esta com muita dor, assim não vai\ndeixar o menor com dor para esperar falar com o responsavel, pois são crianças precisa de\ncuidado especial;',
+                        'O graduado deve avaliar a situação, retirar de forma e mandar embora imediatamente, pois\nnão tem condição de fazer as atividades como o menor está com muita dor, assim não vai\ndeixar o menor com dor para esperar falar com o responsável, pois são crianças precisa de\ncuidado especial;',
                         'Tira de forma da lavada com sabão de soda e escova pede para não gritar militar não grita e\nse gritar já ameaça que vai dar soco na boca para calar o "choro";'
                     ],
                     correctIndex: 0
                 },
                 {
-                    question: 'Quando um menor sai para o horário de lanche, se encontra com os demais cfs, um cfs\nacaba trombando em outro CF sem querer e derruba o seu suco, este cfs que teve o suco\nderramado muito nervoso vai ate o outro cfs e da um soco bem forte nele e tira\nsatisfações. O graduado responsável pela turma vê a sena e chega para resolver, quando\ninicia o dialogo acaba recebendo o restinho do suco que estava no copo em sua cara\nque o CF jogou pois esta muito nervoso. Que atitude o graduado deve tomar:',
+                    question: 'Quando um menor sai para o horário de lanche, se encontra com os demais cfs, um cfs\nacaba trombando em outro CF sem querer e derruba o seu suco, este cfs que teve o suco\nderramado muito nervoso vai até o outro cfs e dá um soco bem forte nele e tira\nsatisfações. O graduado responsável pela turma vê a cena e chega para resolver, quando\ninicia o diálogo acaba recebendo o restinho do suco que estava no copo em sua cara\nque o CF jogou pois está muito nervoso. Que atitude o graduado deve tomar:',
                     options: [
-                        'Pega a cara dele e esfrega aonde o suco pegou na roupa do graduado;',
-                        'Cada ser humano e diferente um do outro, este graduado não leva desaforo para casa\ntambém e da uma sura neste cfs ate mesmo para impor o respeito;',
-                        'Vai ate a cozinha pega um copo de suco e manda na cara dele também, para ele sentir\ncomo e jogar suco na cara de outra pessoa;',
-                        'Deve respirar fundo, não agir com a emoção e sim com a razão, retirar os menores do local\ne tomar as providencias cabíveis;'
+                        'Pegar a cara dele e esfregar aonde o suco pegou na roupa do graduado;',
+                        'Cada ser humano é diferente um do outro, este graduado não leva desaforo para casa\ntambém e dá uma surra neste cfs até mesmo para impor o respeito;',
+                        'Vai até a cozinha pega um copo de suco e manda na cara dele também, para ele sentir\ncomo e jogar suco na cara de outra pessoa;',
+                        'Deve respirar fundo, não agir com a emoção e sim com a razão, retirar os menores do local\ne tomar as providências cabíveis;'
                     ],
                     correctIndex: 3
                 },
                 {
-                    question: 'Em uma instrução normal em sala, um CF do nada levanta e diz: "minha mãe e meu pai\nbrigarão e meu pai tentou matar minha mãe" e começa a chorar". Os cfs novatos sem\nainda entender de ordem começa a rir e chamar ele de chorão. Qual atitude deve ser\ntomada?',
+                    question: 'Em uma instrução normal em sala, um CF do nada levanta e diz: "minha mãe e meu pai\nbrigaram e meu pai tentou matar minha mãe" e começa a chorar". Os cfs novatos sem\nainda entender de ordem começa a rir e chamar ele de chorão. Qual atitude deve ser\ntomada?',
                     options: [
                         'O graduado faz de conta que nada aconteceu aborda situação e da uns grito bem forte para\nmanter a ordem;',
-                        'Chama o auxiliar da sala, pedi para o cf com cautela acompanhar ele para tomar as\nprovidencias e chama a atenção da sala para não repetir o fato, precisam ter respeito em\ntodas as situações;',
-                        'Fica comovido com a situação pedi silencio e como irmão de farda acaba chorando junto\ncom o Cf, afinal companheiro e companheiro;',
+                        'Chama o auxiliar da sala, pedi para o cf com cautela acompanhar ele para tomar as\nprovidências e chama a atenção da sala para não repetir o fato, precisam ter respeito em\ntodas as situações;',
+                        'Fica comovido com a situação pedi silêncio e como irmão de farda acaba chorando junto\ncom o Cf, afinal companheiro é companheiro;',
                         'Da rizada junto e diz "e isso mesmo chorão" cala a boca e vamos continuar a instrução;'
                     ],
                     correctIndex: 1
@@ -340,46 +340,46 @@ export const CEFOG: QuizConfig = {
                     question: 'Andando pelos corredores você escuta um CF dizendo a outro assim: "você sabia que\no batatinha roubou um carregador que estava na biblioteca ". Como graduado com a\nreação correta?',
                     options: [
                         'Chama os dois para conversar e resolve como um adulto;',
-                        'Procura o comando e diz " senhora o CF Batatinha esta sendo acusado de um roubo de\num carregador que estava na biblioteca" estou passando para o sr verificar realmente\naconteceu;',
+                        'Procura o comando e diz " senhora o CF Batatinha está sendo acusado de um roubo de\num carregador que estava na biblioteca" estou passando para o sr verificar realmente\naconteceu;',
                         'Não comenta nada a ninguém e faz de conta que não sabe nada, cada um cuida e sua via;',
                         'Chega correndo para o comando e diz " senhora o CF Batatinha roubou carregador que\nestava na biblioteca";'
                     ],
                     correctIndex: 2
                 },
                 {
-                    question: 'Ao sair de Gm você encontra na sua bicicleta um lindo boné, já esta escuro, muito tarde e\nchovendo. Qual providencia ser tomada?',
+                    question: 'Ao sair de Gm você encontra na sua bicicleta um lindo boné, já está escuro, muito tarde e\nchovendo. Qual providência ser tomada?',
                     options: [
                         'Leva para casa e fica quieto você olhou para os lados não viu ninguém olhando;',
-                        'Olha para os lados coloca na outra bicicleta vizinha, já esta atrasado não da tempo de\nprocurar saber o que fazer;',
-                        'Pega e leva para casa, no outro dia já comunica os responsavel pelo fato e as providencias',
-                        'Cada e joga no lixo e deixa quieto, não é seu;'
+                        'Olha para os lados coloca na outra bicicleta vizinha, já está atrasado não da tempo de\nprocurar saber o que fazer;',
+                        'Pega e leva para casa, no outro dia já comunica os responsável pelo fato e as providências',
+                        'Catar e jogar no lixo e deixar quieto, não é seu;'
                     ],
                     correctIndex: 2
                 },
                 {
-                    question: 'Você organizando o efetivo para a instrução, depara com um CF não quer nem saber de\nentrar em forma, ele fica correndo, chigando todo mundo, batendo em quem esta quieto\nmuito agitado. Você escala uns cfs para ir cuidar deste caso, derepente observa um\nmonte de cfs correndo atrás da criança, e acabam agarrando ele para não correr, você\nchega perto para tentar conversar acalmar a situação, ele muito agitado te da um bela\nmordida no braço. Qual atitude a ser tomada?',
+                    question: 'Você organizando o efetivo para a instrução, depara com um CF não quer nem saber de\nentrar em forma, ele fica correndo, chigando todo mundo, batendo em quem está quieto\nmuito agitado. Você escala uns cfs para ir cuidar deste caso, de repente observa um\nmonte de cfs correndo atrás da criança, e acabam agarrando ele para não correr, você\nchega perto para tentar conversar acalmar a situação, ele muito agitado te dá uma bela\nmordida no braço. Qual atitude a ser tomada?',
                     options: [
-                        'Da um tapa da boca bem forte para aprender a respeitar o superior;',
-                        'Respira fundo e procura os meios corretos para tomar as providencias;',
+                        'dá um tapa da boca bem forte para aprender a respeitar o superior;',
+                        'Respira fundo e procura os meios corretos para tomar as providências;',
                         'Olha bem nos olhos dele e carca uma mordida também para ele sentir a mesma dor que\nvocê sentiu;',
-                        'Deixa ele quieto e pega ele na saída com seus amigos mostrar que você e valente e\npoderoso;'
+                        'Deixa ele quieto e pega ele na saída com seus amigos mostrar que você é valente e\npoderoso;'
                     ],
                     correctIndex: 1
                 },
                 {
-                    question: 'Você esta na escala como observador, se depara com um cf fora da sala, chama ele\npede para entrar e acompanhar as atividades, ele se recusa a entrar diz; "você não\nmanda em mim, entro na hora que eu querer", você nem sabe estou aqui fora ajudando o\ncebolinha". Qual atitude a ser tomada:',
+                    question: 'Você está na escala como observador, se depara com um CF fora da sala, chama ele\npede para entrar e acompanhar as atividades, ele se recusa a entrar diz; "você não\nmanda em mim, entro na hora que eu quiser", você nem sabe estou aqui fora ajudando o\ncebolinha". Qual atitude a ser tomada:',
                     options: [
-                        'Entra em uma discussão com o cfs, chingando com palavras áspera;',
+                        'Entra em uma discussão com o CFs, xingando com palavras áspera;',
                         'Olha bem para os olhos dele e diz " você vai se lascar vou acabar com a sua vida";',
                         'Pega pelo braço e se sai arrastando para sala;',
-                        'Anota no caderno que o cf não quer participar, e após procura saber com o cebolinha se e\nverifico a missão.'
+                        'Anota no caderno que o CF não quer participar, e após procura saber com o cebolinha se e\nverifico a missão.'
                     ],
                     correctIndex: 3
                 },
                 {
-                    question: 'Quando esta comando uma tropa como devemos nos comportar:',
+                    question: 'Quando estamos no comando uma tropa como devemos nos comportar:',
                     options: [
-                        'Ficar sempre na frente na tropa com postura corretar dando exemplos aos seus\nsubordinados;',
+                        'Ficar sempre na frente na tropa com postura correta dando exemplos aos seus\nsubordinados;',
                         'Ficar andando de um lado para o outro bem rápido para analisar a esperteza na tropa;',
                         'Ficar no meio da tropa entre as extremidades da esquerda e da direita para que todos\nescutam seu comando;',
                         'Se posicionar na retaguarda, onde fica os menores para eles, ver você e escutar seu\ncomando;'
@@ -397,31 +397,31 @@ export const CEFOG: QuizConfig = {
                     correctIndex: 1
                 },
                 {
-                    question: 'Na escola você estuda com a CF Alface Americana, e descobre que ela esta de paquera\ncom um menino da escola. Qual procedimento correto:',
+                    question: 'Na escola você estuda com a CF Alface Americana, e descobre que ela está de paquera\ncom um menino da escola. Qual procedimento correto:',
                     options: [
-                        'Da muito conselho a ela e diz bem claro para com isso se não vou comunicar a guarda\nmirim;',
+                        'Dá muito conselho a ela e diz bem claro para com isso se não vou comunicar a guarda\nmirim;',
                         'Como amiga do peito e cumprisse pede para ela arrumar uma paquerinha também;',
-                        'Da muito conselho a ela e diz bem claro, sou GM igual a você e para o bem da disciplina\nestarei comunicando a guarda mirim;',
+                        'Dá muito conselho a ela e diz bem claro, sou GM igual a você e para o bem da disciplina\nestarei comunicando a guarda mirim;',
                         'Apoio a atitude amizade e para isso, zelar dos segredo do amigo'
                     ],
                     correctIndex: 2
                 },
                 {
-                    question: 'Você esta graduado, mas não se encontra em nenhuma escala. E começa observar que\njá deu horário da instrução e nem o comando e sub comando apareceu, não sabendo o\nque aconteceu, como reagiria?',
+                    question: 'Você está graduado, mas não se encontra em nenhuma escala. E começa observar que\njá deu horário da instrução e nem o comando e subcomando apareceu, não sabendo o\nque aconteceu, como reagiria?',
                     options: [
                         'Reúne todos em um local, e deixa a vontade cada um fazer o que quer, pois diz a todos não\ntenho nada a haver com a falta dos superiores;',
                         'Reúne todos em um local e diz: " gente não apareceu ninguém para dar instrução então\npode ir todos embora";',
-                        'Fica preocupado: mas age naturalmente, faz todos os procedimentos do dia chamada,\noração hino e improvisa algo atrativo e construtivo para os cfs, mantendo a ordem e a\ndisciplina, sem deixa a tropa perceber que os superiores não estão na entidade;',
-                        'Fica preocupado: mas age naturalmente, faz todos os procedimentos do dia chamada,\noração hino e improvisa algo atrativo e construtivo para os cfs, mantendo a ordem e a\ndisciplina, lembrando a tropa que os superiores não estão na entidade e se cuidem;'
+                        'Fica preocupado: mas age naturalmente, faz todos os procedimentos do dia chamada,\noração, hino e improvisa algo atrativo e construtivo para os cfs, mantendo a ordem e a\ndisciplina, sem deixa a tropa perceber que os superiores não estão na entidade;',
+                        'Fica preocupado: mas age naturalmente, faz todos os procedimentos do dia chamada,\noração, hino e improvisa algo atrativo e construtivo para os cfs, mantendo a ordem e a\ndisciplina, lembrando a tropa que os superiores não estão na entidade e se cuidem;'
                     ],
                     correctIndex: 2
                 },
                 {
-                    question: 'Ao terminar o expediente o CF Pimentão Vermelho, vai ate a padaria e compra muitos\ndoces e geladinhos com R$ 50,00 (cinquenta), e chega até você e dá um de presente você\naceitaria?',
+                    question: 'Ao terminar o expediente o CF Pimentão Vermelho, vai até a padaria e compra muitos\ndoces e geladinhos com R$ 50,00 (cinquenta), e chega até você e dá um de presente você\naceitaria?',
                     options: [
                         'Não aceitaria, analisaria a situação achando muito estranho um CF com 50 (cinquenta)\nreais gastando tudo com os colegas, e passaria aos setores responsáveis para\nanalisar;',
                         'Sim, adoro geladinho e doces compro quase todos os dias;',
-                        'Sim, adoro geladinho e doces compro quase todos os dias, e pediria outro quase não\nobedeceria o pedido diria vou contar e pedir para analisar aonde saiu tanto dinheiro;',
+                        'Sim, adoro geladinho e doces compro quase todos os dias, e pediria outro quase não\nobedeceria o pedido diria vou contar e pedir para analisar onde saiu tanto dinheiro;',
                         'Não aceitaria, analisaria a situação achando muito estranho um CF com 50 (cinquenta)\nreais gastando tudo com os colegas, mas ficaria quieto nada haver com dinheiro alheio;'
                     ],
                     correctIndex: 0

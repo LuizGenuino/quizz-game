@@ -21,7 +21,7 @@ export const useQuizGame = (
 
   // Seleciona e embaralha as perguntas da rodada
   const questions: Question[] = useMemo(
-    () => shuffle(category.questions).slice(0, diffCfg.questionsPerGame),
+    () => shuffle(category.questions).slice(0, category.questions.length),
     [category, diffCfg.questionsPerGame]
   );
 

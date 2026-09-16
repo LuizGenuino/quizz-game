@@ -1,5 +1,7 @@
 import React from 'react';
 import { GLOBAL_CONFIG } from '../config/globalConfig';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 // ⚓ Footer geral — aparece em TODAS as rotas
 export const Footer: React.FC = () => {
@@ -24,7 +26,7 @@ export const Footer: React.FC = () => {
         rel="noopener noreferrer"
         className="flex items-center gap-1 hover:text-pink-300 transition-colors"
       >
-        <span aria-hidden>📷</span> {f.instagramLabel}
+        <FontAwesomeIcon icon={faInstagram} /> {f.instagramLabel}
       </a>
     </footer>
   );
