@@ -21,7 +21,7 @@ export const FeedbackScreen: React.FC<Props> = ({ quiz, result, onPlayAgain, onE
     ? quiz.texts.goodMessage
     : quiz.texts.tryAgainMessage;
 
-  const trophy = isPerfect ? '🏆' : isGood ? '🎉' : '💪';
+  const trophy = isPerfect ? '🏆' : isGood ? '🎉' : '👎';
 
   useEffect(() => {
     if (isPerfect || isGood) {

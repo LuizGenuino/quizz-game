@@ -25,6 +25,7 @@ export interface DifficultySetting {
 }
 
 export interface QuizTexts {
+  gameLogo?: any,
   gameTitle: string;
   gameSubtitle: string;
   startButton: string;
