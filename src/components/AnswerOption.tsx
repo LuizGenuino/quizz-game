@@ -25,7 +25,7 @@ export const AnswerOption: React.FC<Props> = ({
   onSelect,
   animationDelay = 0,
 }) => {
-  const isConfirmed = answerState === 'correct' || answerState === 'wrong' || answerState === 'timeout';
+  const isConfirmed = answerState === 'correct' || answerState === 'wrong' ;
 
   // Estilos conforme o estado
   let stateClass = 'bg-white/10 border-white/20 hover:bg-white/20 hover:scale-[1.02] hover:border-white/40';
@@ -54,7 +54,7 @@ export const AnswerOption: React.FC<Props> = ({
   return (
     <button
       onClick={() => onSelect(index)}
-      disabled={isConfirmed}
+      disabled={isConfirmed || answerState === 'timeout'}
       style={{ animationDelay: `${animationDelay}s` }}
       className={`
         w-full text-left
@@ -64,7 +64,7 @@ export const AnswerOption: React.FC<Props> = ({
         transition-all duration-300
         animate-slide-up
         ${stateClass}
-        ${!isConfirmed ? 'cursor-pointer active:scale-95' : 'cursor-default'}
+        ${!isConfirmed && answerState !== 'timeout' ? 'cursor-pointer active:scale-95' : 'cursor-default'}
       `}
     >
       <span

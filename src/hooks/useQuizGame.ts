@@ -55,10 +55,17 @@ export const useQuizGame = (
   }, [selectedIndex, isConfirmed, currentQuestion, diffCfg.pointsPerQuestion]);
 
   // Chamado quando o tempo da pergunta esgota
-  const handleTimeout = useCallback(() => {
-    if (isConfirmed) return;
-    setAnswerState('timeout');
-  }, [isConfirmed]);
+ const handleTimeout = useCallback(() => {
+    setAnswerState((prevState) => {
+      const alreadyConfirmed = 
+        prevState === 'correct' || 
+        prevState === 'wrong' || 
+        prevState === 'timeout';
+        
+      if (alreadyConfirmed) return prevState;
+      return 'timeout';
+    });
+  }, []);
 
   const nextQuestion = useCallback(() => {
     if (!isLast) {
