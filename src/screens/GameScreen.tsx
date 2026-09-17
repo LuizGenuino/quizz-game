@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { QuizConfig, DifficultyKey, Category, QuizResult } from '../types/quiz.types';
 import { useQuizGame } from '../hooks/useQuizGame';
 import { useTimer } from '../hooks/useTimer';
@@ -17,6 +17,9 @@ interface Props {
 }
 
 export const GameScreen: React.FC<Props> = ({ quiz, difficulty, category, onFinish, onExit }) => {
+
+      const [isNext, setIsNext] = useState(false)
+
   const {
     questions,
     currentIndex,
@@ -37,13 +40,14 @@ export const GameScreen: React.FC<Props> = ({ quiz, difficulty, category, onFini
 
   const timer = useTimer({
     initialSeconds: timePerQuestion,
-    isRunning: !isConfirmed,
+    isRunning: !isConfirmed && !isNext,
     onComplete: handleTimeout,
   });
 
   // Reinicia o timer a cada pergunta
   useEffect(() => {
     timer.setSeconds(timePerQuestion);
+    setIsNext(false)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentIndex]);
 
@@ -53,6 +57,7 @@ export const GameScreen: React.FC<Props> = ({ quiz, difficulty, category, onFini
       const percentage = Math.round((correctCount / total) * 100);
       onFinish({ correct: correctCount, total, score, maxScore, percentage });
     } else {
+        setIsNext(true)
       nextQuestion();
     }
   };
